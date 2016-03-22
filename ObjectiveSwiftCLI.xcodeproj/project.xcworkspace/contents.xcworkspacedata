@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../ObjCLib/Foo+Foo_Additions.m">
+   </FileRef>
+   <FileRef
       location = "self:ObjectiveSwiftCLI.xcodeproj">
    </FileRef>
 </Workspace>

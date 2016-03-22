@@ -15,3 +15,11 @@
 @interface Foo : NSObject
 - (NSString *) sayHello;
 @end
+
+@interface Foo (additions)
+- (NSString *) sayGoodbye;
+@end
+
+@interface Foo (sameFileAdditions)
+- (NSString *) sayWhatever;
+@end

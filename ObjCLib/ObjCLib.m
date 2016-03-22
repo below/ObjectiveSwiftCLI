@@ -21,3 +21,11 @@
 }
 
 @end
+
+@implementation Foo (sameFileAdditions)
+
+- (NSString *) sayWhatever {
+    return [NSString stringWithFormat:@"Whatever, %@", @"Foo"];
+}
+
+@end
