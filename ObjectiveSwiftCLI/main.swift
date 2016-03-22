@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let foo = "foo".sayHello()
+let bar = Foo().sayHello()
 
+print (foo)
+print (bar)
